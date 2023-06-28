@@ -1,0 +1,55 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+
+- story: name path
+  steps:
+  - intent: greet 
+  - action: utter_greet
+  - intent: name_entry
+  - action: utter_name_entry
+  - intent: phone_number_entry
+  - action: utter_phone_number_entry
+  - intent: account_number_entry
+  - action: utter_account_number_entry
+  - intent: check_balance
+  - action: action_show_account_details
+
+- story: name path 2
+  steps:
+  - intent: name_entry
+  - action: utter_name_entry
+  - intent: phone_number_entry
+  - action: utter_phone_number_entry
+  - intent: account_number_entry
+  - action: utter_account_number_entry
+  - intent: check_balance
+  - action: action_show_account_details

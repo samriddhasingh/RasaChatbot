@@ -1,0 +1,124 @@
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: name_entry
+  examples: |
+    - my name is [Binod](name)
+    - myself [suman][name]
+    - my account name is [hari](name)
+    - I am [samriddha](name)
+    - name is [sajan](name)
+
+
+- intent: account_number_entry
+  examples: |
+    - account number is [12345678900001](account_number)
+    - My account number is [12345678900004](account_number)
+    - Here's my account number: [12345678900002](account_number)
+    - Can you save my account number as [12345678900003](account_number)?
+    - Account: [12345678900004](account_number)
+    - I want to update my account number to [12345678900008](account_number)
+
+
+- intent: phone_number_entry
+  examples: |
+    - phone number is [9868849124](phone_number)
+    - my contact number [9868849125](phone_number)
+    - cell phone number is [9848996977](phone_number)
+    - phone is [9861397413](phone_number)
+
+- intent: check_balance
+  examples: |
+    - What's my account balance?
+    - Can you tell me my current balance?
+    - How much money do I have in my account?
+    - Balance check
+    - Check my balance, please
+    - What is the balance in my account?

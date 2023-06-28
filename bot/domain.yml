@@ -1,0 +1,73 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - name_entry
+  - account_number_entry
+  - phone_number_entry
+  - check_balance
+
+entities:
+  - name
+  - account_number
+  - phone_number
+
+slots:
+  name:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: name
+
+  phone_number:
+    type: text 
+    mappings:
+      - type: from_entity
+        entity: phone_number
+  account_number:
+    type: float
+    mappings:
+      - type: from_entity
+        entity: account_number
+
+actions: 
+  - action_show_account_details
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_name_entry:
+  - text: "Your name is sucessfully saved now its turn to save your other details like account number and phone number correctly. "
+  
+  utter_phone_number_entry:
+  - text: "Your phone number has been saved sucessfully"
+
+  utter_account_number_entry:
+  - text: "Thank you very much for your account number hope you typed it correctly."
+  
+  utter_show_account_details:
+  - text: "Dear {name} your {account_number} has a balance of Rs. 1000"
+  

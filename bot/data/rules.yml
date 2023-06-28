@@ -1,0 +1,35 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Check balance
+  steps:
+  - intent: check_balance
+  - action: action_show_account_details
+
+- rule: account number
+  steps:
+  - intent: account_number_entry
+  - action: utter_account_number_entry
+
+- rule: name 
+  steps:
+  - intent: name_entry
+  - action: utter_name_entry
+
+- rule: phone number
+  steps:
+  - intent: phone_number_entry
+  - action: utter_phone_number_entry
+
+
