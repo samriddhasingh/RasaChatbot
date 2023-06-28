@@ -27,10 +27,9 @@ class ActionHelloWorld(Action):
         name= tracker.get_slot('name')
         phone= tracker.get_slot('phone_number')
         account_number= tracker.get_slot('account_number')
-        print(name, phone, account_number)
+       
         account_number=int(account_number)
-        print(type(account_number))
-        print(type(name))
+     
         if account_number in accountdb:
        
             if accountdb[account_number]['name']==name and accountdb[account_number]['phone']==phone:
