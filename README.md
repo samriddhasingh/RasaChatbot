@@ -14,5 +14,5 @@ Django Framework<br>
 
 
 <h2>Outcome</h2>
-!(https://github.com/samriddhasingh/RasaChatbot/blob/main/rasachatbot/Screenshot%202023-06-28%20113912.jpg)
+![Screenshot 2022-06-06 102253](https://github.com/samriddhasingh/RasaChatbot/blob/main/rasachatbot/Screenshot%202023-06-28%20113912.jpg)
 
