@@ -14,5 +14,6 @@ Django Framework<br>
 
 
 <h2>Outcome</h2>
-![Screenshot 2023-06-28 113834](https://github.com/samriddhasingh/RasaChatbot/assets/59139917/61ec82e7-0998-4504-99c8-b11de7983dc6)
+
+![Screenshot 2023-06-28 113912](https://github.com/samriddhasingh/RasaChatbot/assets/59139917/d9afb33f-f2e2-4ff2-9704-87d58067b815)
 
