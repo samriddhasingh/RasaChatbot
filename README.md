@@ -18,5 +18,5 @@ Django Framework<br>
 ![Screenshot 2023-06-28 113834](https://github.com/samriddhasingh/RasaChatbot/assets/59139917/dc9de81a-cb04-4212-aabb-7cc3b9a5ad85)
 
 
-![Screenshot 2023-06-28 113834](https://github.com/samriddhasingh/RasaChatbot/assets/59139917/dcc5219f-1737-4e93-81a7-e84055d0855f)
 
+![Screenshot 2023-06-28 113912](https://github.com/samriddhasingh/RasaChatbot/assets/59139917/9ff7156a-1ebb-4f31-b754-d59840662e86)
