@@ -2,7 +2,7 @@
 
 <h2>Overview</h2>
 
-<p>Chatbot completed as  part of the assignment</p>
+<p>Chatbot</p>
 
 <h2>Requirement</h2>
 
